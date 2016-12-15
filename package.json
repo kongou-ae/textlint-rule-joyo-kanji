@@ -1,0 +1,27 @@
+{
+  "version": "0.0.1",
+  "keywords": [
+    "textlint",
+    "rule"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "textlint-scripts test",
+    "build": "textlint-scripts build",
+    "prepublish": "npm run --if-present build"
+  },
+  "devDependencies": {
+    "textlint-scripts": "^1.2.2"
+  },
+  "name": "textlint-rule-joyo-kanji",
+  "directories": {
+    "test": "test"
+  },
+  "author": "kongou-ae",
+  "license": "MIT",
+  "description": ""
+}
