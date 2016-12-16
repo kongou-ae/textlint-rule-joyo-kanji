@@ -26,6 +26,8 @@ Via CLI
 textlint --rule joyo-kanji README.md
 ```
 
+If you need to use some joyo kanji, you can use [textlint-filter-rule-whitelist](https://github.com/textlint/textlint-filter-rule-whitelist).
+
 ### Build
 
 Builds source codes for publish to the `lib` folder.
